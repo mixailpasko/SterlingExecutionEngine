@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="ExecEngine">
+    <file>r2-logo.png</file>
+  </qresource>
+</RCC>

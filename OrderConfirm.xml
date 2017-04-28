@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<structSTIOrderConfirm>
+  <nOrderRecordId>23466764</nOrderRecordId>
+  <bstrAccount>DEMO888</bstrAccount>
+  <bstrExchClOrderId>EK 7816</bstrExchClOrderId>
+  <bstrExchOrderId>EK7816</bstrExchOrderId>
+  <bstrMsgConfirm>X</bstrMsgConfirm>
+  <bstrClOrderId>ba828e79-8474-471c-a114-536dea61cd2b</bstrClOrderId>
+  <bstrInstrument>E</bstrInstrument>
+  <bstrExchOrderId2>EK 7816-2</bstrExchOrderId2>
+</structSTIOrderConfirm>

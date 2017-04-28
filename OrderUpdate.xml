@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<structSTIOrderUpdate>
+  <nSeqNo>1</nSeqNo>
+  <nQuantity>500</nQuantity>
+  <nLvsQuantity>500</nLvsQuantity>
+  <nPriceType>5</nPriceType>
+  <nOrderStatus>13</nOrderStatus>
+  <nOrderRecordId>23464328</nOrderRecordId>
+  <nDbsNo>99</nDbsNo>
+  <nDisplay>500</nDisplay>
+  <nMarketStructure>-1</nMarketStructure>
+  <nOrderCompletion>-1</nOrderCompletion>
+  <fTargetPctVolume>-1</fTargetPctVolume>
+  <bstrAction>A</bstrAction>
+  <bstrUserId>DEMO888</bstrUserId>
+  <bstrAccount>DEMO888</bstrAccount>
+  <bstrSide>B</bstrSide>
+  <bstrSymbol>GE</bstrSymbol>
+  <bstrClOrderId>b28cc888-67b3-45fc-a9dc-45a0c02cf111</bstrClOrderId>
+  <bstrTif>D</bstrTif>
+  <bstrDestination>NYSE</bstrDestination>
+  <bstrOrderTime>20130531133759</bstrOrderTime>
+  <bstrUpdateTime>20130531133759</bstrUpdateTime>
+  <bstrLogMessage>BUY 500 GE 0 DAY (NYSE, DEMO888-1-99)</bstrLogMessage>
+  <bstrInstrument>E</bstrInstrument>
+  <bstrCurrency>USD</bstrCurrency>
+</structSTIOrderUpdate>

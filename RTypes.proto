@@ -1,0 +1,52 @@
+package Serializable;
+
+message CustROrder_ser
+{
+optional string bstrAccount = 1 ;
+optional string bstrDestination = 2 ;
+optional int32 nOrderStatus = 3;
+optional string bstrSymbol = 4 ;
+optional string bstrClOrderId = 5 ;
+optional string bstrAction = 6 ;
+optional string Side = 7 ;
+optional int32 nQuantity = 8;
+optional int32 nLvsQuantity = 9;
+optional string bstrLogMessage = 10 ;
+optional float LmtPrice = 11;
+optional string bstrUser = 12 ;
+optional int32 TotalExecutedQty = 13;
+optional int32 ExecutedQty = 14;
+optional string cust_cancelOrderID = 15 ;
+optional string cust_orderCategory = 16 ;
+optional EPriceType PriceType = 17 ;
+optional string TIF = 18 ;
+optional string DateTime = 19;
+optional string strategy = 20;
+optional string  maturity = 22;
+optional string putcall  = 23;
+optional string instrument = 24; 
+optional float strikeprice = 25; 
+optional string underlying = 26; 
+optional string nOrderRecordId = 27; //This is used for canceling. Sterling uses this for internal tracking
+enum EPriceType {
+    Lmt = 0;
+  }
+}
+
+message ROrderPosition
+{
+optional int32 position = 1;
+optional float execution_price = 2;
+}    
+
+message RUpdatePacket
+{
+optional CustROrder_ser custOrd = 1;
+optional ROrderPosition pos = 2;
+}
+
+message ExtraRFields
+{
+optional string FormID = 1 ;
+optional string OrderType = 2;
+}

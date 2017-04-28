@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<structSTITradeUpdate>
+  <nSeqNo>3</nSeqNo>
+  <nQuantity>1</nQuantity>
+  <nLvsQuantity>11</nLvsQuantity>
+  <nPriceType>5</nPriceType>
+  <nOrderRecordId>25554165</nOrderRecordId>
+  <nTradeRecordId>22999968</nTradeRecordId>
+  <nDbsNo>99</nDbsNo>
+  <bClearable>1</bClearable>
+  <bEcnFee>1</bEcnFee>
+  <fExecPrice>40</fExecPrice>
+  <fLmtPrice>40</fLmtPrice>
+  <bstrAction>A</bstrAction>
+  <bstrUserId>DEMO888</bstrUserId>
+  <bstrAccount>DEMO888</bstrAccount>
+  <bstrSide>B</bstrSide>
+  <bstrSymbol>GOOG</bstrSymbol>
+  <bstrClOrderId>de4edc24-0940-4345-b832-015c7eb8acc0</bstrClOrderId>
+  <bstrExchClOrderId>AG 1075</bstrExchClOrderId>
+  <bstrExchOrderId>AG 1075</bstrExchOrderId>
+  <bstrTif>D</bstrTif>
+  <bstrDestination>NYSE</bstrDestination>
+  <bstrExecBroker>BELZ</bstrExecBroker>
+  <bstrOrderTime>20130826112207</bstrOrderTime>
+  <bstrTradeTime>20130826112207</bstrTradeTime>
+  <bstrUpdateTime>20130826112207</bstrUpdateTime>
+  <bstrLogMessage>BOT 1 GOOG 40 ON 40  DAY LVS 11 (NYSE-LOC1, DEMO888-3-99)</bstrLogMessage>
+  <bstrAccountType>A</bstrAccountType>
+  <bstrSpecialist>1032</bstrSpecialist>
+  <bstrContra>LOC1</bstrContra>
+  <bstrInstrument>E</bstrInstrument>
+  <bstrCurrency>USD</bstrCurrency>
+  <bstrLiquidity>C</bstrLiquidity>
+  <bstrExchOrderId2>AG 1075-2</bstrExchOrderId2>
+</structSTITradeUpdate>
